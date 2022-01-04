@@ -1,0 +1,46 @@
+spring:
+  main:
+    web-application-type: none
+  data:
+    mongodb:
+      uri: mongodb+srv://skmets:a1l9i7e8n@cluster0.h3xur.mongodb.net/stock
+
+server:
+  port: 8081
+
+iex-cloud:
+  base-url: https://cloud.iexapis.com/stable/
+  api-token: pk_9307e2b4c282427ea29f083ccb31bde4
+
+stock-dashboard:
+  stock-list: >
+    aapl,
+    msft,
+    amzn,
+    googl,
+    fb,
+    baba,
+    v,
+    jnj,
+    wmt,
+    tsm,    
+    pg,
+    ma,
+    jpm,
+    unh,
+    hd,
+    tsla,
+    intc,
+    nvda,
+    vz,
+    t,
+    dis,
+    adbe,
+    pypl,
+    mrk,
+    pfe,
+    bac,
+    ko,
+    csco,
+    cmcsa,
+    pep

@@ -1,0 +1,65 @@
+.card-list {
+    padding: 2rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+}
+
+.stock-card {
+    min-width: 420px;
+    max-width: 550px;
+    margin-right: 0.5rem;
+    margin-bottom: 1rem;
+    translate: 1s;
+
+    border-radius: 12px;
+    box-shadow: 15px 15px 30px 0px rgba(40,40,40,0.5);
+}
+
+.stock-card:hover {
+    transform: translate(-2px,-2px);
+    box-shadow: 0px 0px 5px 7px rgb(216, 186, 18,0.7);
+}
+
+p.card-text.quote span {
+    margin-right: 5px;
+}
+
+p.card-text.quote span:first-of-type {
+    font-weight: bold;
+}
+
+p.card-text.price-up {
+    color: green;
+}
+
+p.card-text.price-down {
+    color: red;
+}
+
+.recharts-wrapper {
+    font-size: 10px;
+}
+
+.recharts-custom-tooltip {
+    margin: 0px;
+    padding: 2px 5px 2px 5px; 
+    background-color: rgb(255, 255, 255); 
+    border: 1px solid rgb(204, 204, 204); 
+    white-space: nowrap;
+}
+
+.recharts-custom-tooltip span.price-up {
+    color: green;
+    font-weight: bold;
+}
+
+.recharts-custom-tooltip span.price-down {
+    color: red;
+    font-weight: bold;
+}
+
+.recharts-text.recharts-label.prev-close-tag {
+    font-weight: bold;
+}

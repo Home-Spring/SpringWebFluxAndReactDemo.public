@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&display=swap');
+
+body {
+  padding: 0px;
+  margin: 0px;
+  background-color:rgba(43, 41, 43, 0.322);
+  font-family: 'Roboto Slab', serif;
+}
+
+.title {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+label2 {
+  margin-left: 5px;
+  margin-right: 10px;
+}
+
+.disclaimer-modal {
+  width: "80%";
+  max-width: 1000px;
+}
